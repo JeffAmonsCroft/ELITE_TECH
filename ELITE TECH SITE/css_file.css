@@ -1,0 +1,284 @@
+body{
+    background-color: aqua;
+    padding: 0px;
+    margin: 0px;
+}
+#h1{
+    text-align: center;
+
+}
+#abt{
+    color: green;
+    text-align: center;
+}
+#hd_secn{
+    background-color: aqua;
+    font-size: xx-large;
+}
+#hd_secn1{
+    background-color: aqua;
+    font-size: xx-large;
+}
+
+#st_mq{
+    color: white;
+    background-color: grey;
+    font-size: 20px;
+}
+#adrs{
+    text-align: center;
+}
+#tabs{
+    
+    display: flex;
+    color: white;
+}
+#tab{
+    flex-grow: 1;
+    margin-left: 200px;
+    margin-right: 100px;
+    color: white;
+    font-size: xx-large;
+    
+}
+
+#tab:hover{
+    transition-duration: .5s;
+    background-color: blue;
+    padding: 10px;
+    width: 100px;
+}
+.mn_body{
+    color: white;
+    background-image: url(body_background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-size: xx-large;
+    text-align: center;
+}
+#jeff1{
+    width: 200px;
+    height: 250px;
+}
+#jeff1:hover{
+    background-color: aqua;
+    width: 300px;
+    height: 350px;
+    padding: 10px;
+}
+#courses{
+    padding: 0px;
+}
+#bktp{
+    color: white;
+}
+#srvs{
+    color: white;
+}
+#itsvcs{
+    text-align: center;
+    color: white;
+    font-size: xx-large;
+    background-image: url(background_itsvcs.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.sc_mn_bkg{
+    
+}
+
+#itcoss{
+    text-align: center;
+    color: white;
+    font-size: xx-large;
+    background-image: url(back_itcoss.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#images{
+    display: flex;
+    
+}
+#web_imgs1{
+    padding: 10px;
+    flex-grow: 1;
+    width: 300px;
+    height: 200px;
+}
+#web_imgs1:hover{
+    background-color: aqua;
+    width: 500px;
+    height: 400px;
+}
+#web_imgs2{
+    padding: 10px;
+    flex-grow: 1;
+    width: 300px;
+    height: 200px;
+}
+#web_imgs2:hover{
+    background-color: aqua;
+    width: 500px;
+    height: 400px;
+}
+
+#h:hover{
+    color: red;
+    background-color:;
+    padding: 10px;
+}
+
+
+
+
+@media screen and (width<=500px){
+    body{
+        background: aqua;
+    }
+
+#h1{
+    text-align: center;
+
+}
+#abt{
+    color: green;
+    text-align: center;
+}
+#hd_secn{
+    background-color: aqua;
+    font-size: large;
+}
+#hd_secn1{
+    background-color: aqua;
+    font-size: large;
+}
+
+#st_mq{
+    color: white;
+    background-color: grey;
+    font-size: 20px;
+}
+#adrs{
+    text-align: center;
+}
+#tabs{
+    
+    display: flex;
+    color: white;
+}
+#tab{
+    flex-grow: 1;
+    margin-left: 25px;
+    margin-right: 25px;
+    color: white;
+    font-size: large;
+    
+}
+
+#tab:hover{
+    transition-duration: .5s;
+    background-color: blue;
+    padding: 10px;
+    width: 10px;
+}
+.mn_body{
+    color: white;
+    background-image: url(body_background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-size: large;
+    text-align: center;
+}
+#jeff1{
+    width: 160px;
+    height: 200px;
+}
+#jeff1:hover{
+    background-color: aqua;
+    width: 300px;
+    height: 350px;
+    padding: 10px;
+}
+#courses{
+    padding: 0px;
+}
+#bktp{
+    color: white;
+}
+#srvs{
+    color: white;
+}
+#itsvcs{
+    text-align: center;
+    color: white;
+    font-size: large;
+    background-image: url(background_itsvcs.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+    
+
+
+#itcoss{
+    text-align: center;
+    color: white;
+    font-size: large;
+    background-image: url(back_itcoss.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#web_imgs1{
+    margin: 0px;
+    padding: 5px;
+    flex-basis: 50%;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+}
+#web_imgs1:hover{
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+}
+
+
+#web_imgs2{
+    margin: 0px;
+    padding: 5px;
+    flex-basis: 50%;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+}
+#web_imgs2:hover{
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+}
+#h:hover{
+    color: red;
+    
+    padding: 10px;
+}
+
+
+
+}
